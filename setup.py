@@ -19,6 +19,7 @@ setup(
     url = "http://packages.python.org/cheddarpy",
     packages=['cheddarpy', 'tests'],
     long_description=read('README.md'),
+    install_requires=['requests==2.2.1'],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: Utilities",
